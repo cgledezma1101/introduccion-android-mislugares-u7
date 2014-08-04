@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about">Acerca de</string>
+    <string name="about_text">
+        Este programa ha sido desarrollado como ejemplo en el curso de Android
+        para demostrar cómo se pueden lanzar nuevas actividades desde la
+        actividad principal.
+    </string>
+    <string name="app_name">Mis Lugares</string>
+    <string name="comentario_lugar">Comentario:</string>
+    <string name="config">Configuración</string>
+    <string name="direccion_lugar">Dirección:</string>
+    <string name="distance">Distancia para notificar</string>
+    <string name="distance_summary">
+        Distancia mínima (km) para notificar
+    </string>
+    <string name="email_address">Dirección de correo</string>
+    <string name="email_address_summary">
+        Cuenta donde se mandarán las notificaciones
+    </string>
+    <string name="email_notifications">Notificaciones por correo</string>
+    <string name="exit">Salir</string>
+    <string name="hint_comentario_lugar">introduce tus notas</string>
+    <string name="hint_direccion_lugar">dirección del lugar</string>
+    <string name="hint_nombre_lugar">algo que identifique el lugar</string>
+    <string name="hint_telefono_lugar">teléfono para contactar</string>
+    <string name="hint_url_lugar">página web</string>
+    <string name="nombre_lugar">Nombre:</string>
+    <string name="notification_types">Tipos de notificaciones</string>
+    <string name="notification_types_summary">
+        Qué tipos de correos quieres recibir
+    </string>
+    <string name="order_criteria">Criterio de ordenación</string>
+    <string name="order_criteria_summary">
+        Qué lugares quieres que aparezcan antes
+    </string>
+    <string name="receive_emails">Recibir correos</string>
+    <string name="receive_emails_summary">
+        Recibir correos con información sobre lugares
+    </string>
+    <string name="search">Buscar</string>
+    <string name="send_notifications">Enviar notificaciones</string>
+    <string name="send_notifications_summary">
+        Notificar si estamos cerca del lugar
+    </string>
+    <string name="telefono_lugar">Teléfono:</string>
+    <string name="tipo_lugar">Tipo:</string>
+    <string name="url_lugar">Url:</string>
+    <string name="preferences">Preferencias</string>
+    <string name="show_places">Mostrar Lugares</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:key="preferencias_principal">
+    <CheckBoxPreference android:key="notificaciones"
+                        android:title="@string/send_notifications"
+                        android:summary="@string/send_notifications_summary"/>
+    <EditTextPreference android:key="distancia"
+                        android:title="@string/distance"
+                        android:summary="@string/distance_summary"
+                        android:defaultValue="3"/>
+    <ListPreference android:key="orden"
+                    android:title="@string/order_criteria"
+                    android:summary="@string/order_criteria_summary"
+                    android:entries="@array/tiposOrden"
+                    android:entryValues="@array/tiposOrdenValores"
+                    android:defaultValue="1"/>
+    <PreferenceCategory android:title="@string/email_notifications">
+        <CheckBoxPreference android:key="recibir_correos"
+                            android:title="@string/receive_emails"
+                            android:summary="@string/receive_emails_summary"/>
+        <EditTextPreference android:key="direccion_electronica"
+                            android:title="@string/email_address"
+                            android:summary="@string/email_address_summary"/>
+        <ListPreference android:key="tipos_notificaciones"
+                        android:title="@string/notification_types"
+                        android:summary="@string/notification_types_summary"
+                        android:entries="@array/tiposNotificacion"
+                        android:entryValues="@array/tiposNotificacionValores"
+                        android:defaultValue="0"/>
+    </PreferenceCategory>
+</PreferenceScreen>

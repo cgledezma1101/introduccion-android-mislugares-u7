@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView">
+
+        <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/nombre_lugar"
+                    android:id="@+id/lblNombreLugar"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"/>
+
+            <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nombre"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/lblNombreLugar"
+                    android:hint="@string/hint_nombre_lugar"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/tipo_lugar"
+                    android:id="@+id/lblTipoLugar"
+                    android:layout_below="@id/nombre"
+                    android:layout_alignParentLeft="true"/>
+
+            <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tipo"
+                    android:layout_below="@+id/nombre"
+                    android:layout_toRightOf="@+id/lblTipoLugar"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/direccion_lugar"
+                    android:id="@+id/lblDireccionLugar"
+                    android:layout_below="@+id/tipo"
+                    android:layout_alignParentLeft="true"/>
+
+            <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/direccion"
+                    android:layout_below="@+id/lblDireccionLugar"
+                    android:layout_alignParentLeft="true"
+                    android:hint="@string/hint_direccion_lugar"
+                    android:inputType="textPostalAddress"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/telefono_lugar"
+                    android:id="@+id/lblTelefonoLugar"
+                    android:layout_below="@+id/direccion"
+                    android:layout_alignParentLeft="true"/>
+
+            <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/telefono"
+                    android:hint="@string/hint_telefono_lugar"
+                    android:layout_toRightOf="@+id/lblTelefonoLugar"
+                    android:layout_below="@id/direccion"
+                    android:inputType="phone"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/url_lugar"
+                    android:id="@+id/lblUrlLugar"
+                    android:layout_below="@+id/telefono"
+                    android:layout_alignParentLeft="true"/>
+
+            <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/url"
+                    android:layout_below="@+id/lblUrlLugar"
+                    android:hint="@string/hint_url_lugar"
+                    android:layout_alignParentLeft="true"
+                    android:inputType="textUri"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/comentario_lugar"
+                    android:id="@+id/lblComentarioLugar"
+                    android:layout_below="@+id/url"
+                    android:layout_alignParentLeft="true"/>
+
+            <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/comentario"
+                    android:layout_below="@+id/lblComentarioLugar"
+                    android:hint="@string/hint_comentario_lugar"
+                    android:layout_alignParentLeft="true"
+                    android:inputType="textMultiLine"/>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

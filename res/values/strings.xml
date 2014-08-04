@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about">About</string>
+    <string name="about_text">
+        This program has been developed as an example in the Android course
+        to show how new activities can be launched from the main activity.
+    </string>
+    <string name="app_name">My places</string>
+    <string name="comentario_lugar">Comment:</string>
+    <string name="config">Configuration</string>
+    <string name="direccion_lugar">Address:</string>
+    <string name="distance">Distance to notify</string>
+    <string name="distance_summary">
+        Minimum distance (km) to notify
+    </string>
+    <string name="email_address">Email address</string>
+    <string name="email_address_summary">
+        Account where the notifications will be sent
+    </string>
+    <string name="email_notifications">Email notifications</string>
+    <string name="exit">Exit</string>
+    <string name="hint_comentario_lugar">enter your notes</string>
+    <string name="hint_direccion_lugar">place\'s address</string>
+    <string name="hint_nombre_lugar">something to identify the place</string>
+    <string name="hint_telefono_lugar">contact phone</string>
+    <string name="hint_url_lugar">web site</string>
+    <string name="nombre_lugar">Name:</string>
+    <string name="notification_types">Notification types</string>
+    <string name="notification_types_summary">
+        Which type of emails you would like to receive
+    </string>
+    <string name="order_criteria">Order criteria</string>
+    <string name="order_criteria_summary">
+        Which places should be shown first
+    </string>
+    <string name="receive_emails">Receive emails</string>
+    <string name="receive_emails_summary">
+        Receive emails with information about places
+    </string>
+    <string name="search">Search</string>
+    <string name="send_notifications">Send notifications</string>
+    <string name="send_notifications_summary">
+        Notify if we are close to the place
+    </string>
+    <string name="telefono_lugar">Phone:</string>
+    <string name="tipo_lugar">Type:</string>
+    <string name="url_lugar">Url:</string>
+    <string name="preferences">Preferences</string>
+    <string name="show_places">Show places</string>
+</resources>
